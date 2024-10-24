@@ -2,7 +2,7 @@
 :: Verifica se Docker è in esecuzione
 docker version >nul 2>&1
 if ERRORLEVEL 1 (
-    echo Docker non è in esecuzione. Avvia Docker Desktop prima di eseguire questo script.
+    echo Docker non e' in esecuzione. Avvia Docker Desktop prima di eseguire questo script.
     pause
     exit /b
 )
